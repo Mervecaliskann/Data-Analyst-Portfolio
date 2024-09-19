@@ -2,7 +2,7 @@
 This is a repository that I have created to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
 
 
-# Project 1: Revenue Measurements ( https://public.tableau.com/app/profile/merve.al.kan/viz/Book1_17257103004620/Dashboard1?publish=yes )
+# [Project 1: Revenue Measurements] ( https://public.tableau.com/app/profile/merve.al.kan/viz/Book1_17257103004620/Dashboard1?publish=yes )
 This project showcases a comprehensive revenue measurement dashboard developed on Tableau Public. Designed to be readily accessible for all users, it provides a clear and actionable overview of critical financial metrics, empowering stakeholders with data-driven insights.
 
 ## Key Features:

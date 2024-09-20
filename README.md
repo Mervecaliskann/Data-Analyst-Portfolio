@@ -2,7 +2,7 @@
 This is a repository that I have created to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
 
 
-# [Project 1: Revenue Measurements] ( https://public.tableau.com/app/profile/merve.al.kan/viz/Book1_17257103004620/Dashboard1?publish=yes )
+# Project 1: Revenue Measurements ( https://public.tableau.com/app/profile/merve.al.kan/viz/Book1_17257103004620/Dashboard1?publish=yes )
 This project showcases a comprehensive revenue measurement dashboard developed on Tableau Public. Designed to be readily accessible for all users, it provides a clear and actionable overview of critical financial metrics, empowering stakeholders with data-driven insights.
 
 ## Key Features:
@@ -47,7 +47,7 @@ This project provides valuable insights into:
 * Customer acquisition and retention: Understanding user behavior is crucial for customer acquisition and retention strategies.
 
 
-# [Project 4: Calculating Potential Customer Yield with Rule-Based Classification] (https://github.com/Mervecaliskann/Calculating-Potential-Customer-Yield-with-Rule-Based-Classification)
+# Project 4: Calculating Potential Customer Yield with Rule-Based Classification (https://github.com/Mervecaliskann/Calculating-Potential-Customer-Yield-with-Rule-Based-Classification)
 
 This project involved an in-depth analysis of sales data for Gezinomi, a travel industry company. The objective was to estimate potential customer revenue and inform marketing strategies.
 
@@ -94,3 +94,163 @@ This project delves into the development of robust algorithms for recognizing ha
 * TensorFlow/Keras: Deep learning frameworks used for building and training the CNN.
 * MNIST Dataset: A benchmark dataset for handwritten digit recognition.
 * Custom Dataset: A dataset containing handwritten names and surnames for real-world evaluation.
+  
+# Project 6: User Engagement Analysis ( https://docs.google.com/spreadsheets/d/1PnlgDO1HJR2I5KB8FG9Ynjht6k-C6VQm4zp2xVnh4hQ/edit?gid=0#gid=0 )
+
+This project aims to analyze user engagement metrics for a specific product. It involves calculating key metrics such as Daily Active Users (DAU), Weekly Active Users (WAU), and user retention.
+
+## Key steps:
+
+* Data Preparation: Importing the dataset to Google Sheets and calculating basic statistics for user age.
+* DAU Calculation: Calculating the number of unique users who used the product on each day.
+* WAU Calculation: Calculating the number of unique users who used the product in each week and the average DAU for each week.
+* User Retention: Calculating the ratio of average DAU to WAU to measure user stickiness.
+
+## Tools used: 
+
+*Google Sheets, COUNTUNIQUEIFS, SUMIF, COUNTIF, and other statistical functions.
+
+# Project 7: User Engagement Forecasting and Visualization ( https://docs.google.com/spreadsheets/d/1JbRYaAidpETIV5PhzAvBucw9JAoI5uguC9b12alpt_M/edit?gid=1323024643#gid=1323024643 )
+
+This project focuses on predicting and visualizing user engagement metrics. By leveraging linear regression and data visualization techniques, we aim to forecast future Daily Active Users (DAU) and Weekly Active Users (WAU) and gain insights into user behavior.
+
+## Key Objectives:
+
+* Forecasting: Utilize linear regression to predict future DAU and WAU values.
+* Visualization: Create informative visualizations to understand trends and patterns in user engagement.
+* Data-Driven Insights: Extract meaningful insights from the data to inform product decisions.
+  
+## Methodology:
+
+* Data Preparation: Prepared the dataset from the previous assignment.
+* Linear Regression: Applied linear regression to forecast DAU and WAU for future weeks.
+* Data Visualization: Created various charts using Google Sheets, including bar charts, pie charts, line charts, and polynomial trendlines.
+* Analysis: Analyzed the visualizations to identify trends and patterns in user behavior.
+
+## Tools Used:
+
+* Google Sheets
+* Linear Regression
+* Data Visualization
+
+# Project 8: Cohort Analysis of User Retention (https://docs.google.com/spreadsheets/d/12uhgrJ0tY5LDsYD9GqRA_mC8_uTSSjstEsvqOx14VQY/edit?gid=1387101163#gid=1387101163)
+
+This project aims to perform a cohort analysis of user retention using Google Sheets pivot tables. By grouping users based on their first activity month and tracking their subsequent activities, we can identify trends in user behavior and retention rates.
+
+## Methodology:
+
+* Data Preparation: Prepared the dataset from the previous assignment.
+* Pivot Table Creation: Created a pivot table to analyze user cohorts based on their first activity month.
+* Retention Rate Calculation: Calculated retention rates for each cohort over time.
+* Visualization: Used conditional formatting and slicers to visualize the data effectively.
+
+## Tools Used:
+
+* Google Sheets
+* Pivot Tables
+* Conditional Formatting
+
+# Project 9:   Combining and Analyzing Ad Campaign Data with SQL (https://github.com/Mervecaliskann/Combining-and-Analyzing-Ad-Campaign-Data)
+
+This SQL project aims to combine data from two ad campaign platforms (Facebook Ads and Google Ads) and perform a comprehensive analysis. Using Common Table Expressions (CTEs), we create a unified dataset and then aggregate metrics by date and media source.
+
+## Key Objectives:
+
+* Combine data from multiple sources.
+* Utilize CTEs for better code readability.
+* Aggregate metrics to gain insights into campaign performance.
+
+## Methodology:
+
+* Data Integration: Combined data from Facebook Ads and Google Ads using a UNION ALL operation.
+* CTE Creation: Created a CTE to encapsulate the combined dataset.
+* Aggregation: Grouped the data by date and media source to calculate total spend, impressions, clicks, and conversion value.
+
+## Tools Used:
+
+* SQL
+
+# Project 10: Combining-Facebook-and-Google-Ads-Data with SQL (https://github.com/Mervecaliskann/-Combining-Facebook-and-Google-Ads-Data)
+
+This SQL project demonstrates how to combine data from multiple ad platforms (Facebook and Google Ads) using CTEs and JOIN operations. By merging data from different tables, we can get a comprehensive view of our advertising campaigns.
+
+## Key Objectives:
+
+* Combine data from Facebook Ads and Google Ads.
+* Use CTEs for better code readability.
+* Aggregate metrics by date, media source, campaign, and ad set.
+
+## Methodology:
+
+* Joining Facebook Tables: Joined Facebook tables using INNER JOINs based on common keys.
+* Combining with Google Ads: Combined the joined Facebook data with Google Ads data using UNION ALL.
+* Aggregation: Grouped the data by date, media source, campaign, and ad set to calculate key metrics.
+
+## Tools Used:
+
+*SQL
+
+# Project 11: Google Looker Studio Dashboard for Ad Campaign Analysis (https://lookerstudio.google.com/reporting/18debe28-ac13-4552-908e-4f39686b1ef6/page/uwo0D)
+
+This project demonstrates the creation of a data dashboard using Google Looker Studio to analyze ad campaign performance. By connecting to a PostgreSQL database and visualizing key metrics, we gain insights into campaign effectiveness and identify areas for improvement.
+
+## Key Features:
+
+* Data Source: PostgreSQL database
+* Metrics: Ad spend, CPC, CPM, CTR, ROMI
+* Visualizations: Combined chart, line chart, and table
+* Filters: Campaign name and ad date
+
+## Methodology:
+
+* Data Connection: Connected Looker Studio to a PostgreSQL database.
+* Data Exploration: Created calculated fields for key metrics.
+* Visualization: Built a dashboard with various charts and tables.
+* Filtering: Added filters to enable interactive exploration of data.
+
+## Tools Used:
+
+* Google Looker Studio
+* PostgreSQL
+
+# Project 12: Extracting-UTM-Parameters-and-Analyzing-Campaign-Performance (https://github.com/Mervecaliskann/Extracting-UTM-Parameters-and-Analyzing-Campaign-Performance)
+
+This SQL project focuses on extracting UTM parameters from ad campaign data and performing detailed analysis. By using regular expressions and conditional statements, we can gain deeper insights into campaign performance based on specific UTM parameters.
+
+## Key Objectives:
+
+* Extract UTM campaign parameters from URL strings.
+* Handle NULL values and perform calculations accordingly.
+* Analyze campaign performance based on UTM parameters.
+
+## Methodology:
+
+* Data Preparation: Combined data from various ad platforms.
+* UTM Extraction: Used regular expressions to extract UTM campaign parameters.
+* Metric Calculation: Calculated key metrics like CTR, CPC, and CPM using conditional statements.
+
+## Tools Used:
+
+* SQL (PostgreSQL)
+* Regular Expressions
+
+# Project 13: Analyzing Monthly Ad Campaign Performance ()
+
+This SQL project analyzes ad campaign performance on a monthly basis. Using window functions, we calculate the percentage change in key metrics from month to month for each campaign.
+
+## Key Objectives:
+
+* Calculate monthly metrics for ad campaigns.
+* Analyze month-over-month changes in key metrics.
+* Use window functions for time series analysis.
+
+## Methodology:
+
+* Data Preparation: Created a monthly view of the data.
+* Window Functions: Used the LAG function to calculate month-over-month changes.
+* Metric Calculations: Calculated various metrics, including percentage changes.
+
+## Tools Used:
+
+* SQL (PostgreSQL)
+* Window Functions

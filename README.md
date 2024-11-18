@@ -254,3 +254,33 @@ This SQL project analyzes ad campaign performance on a monthly basis. Using wind
 
 * SQL (PostgreSQL)
 * Window Functions
+
+# Project 14: Jobs in Data Analysis (https://github.com/Mervecaliskann/Jobs-in-Data-Analysis)
+
+This Python project explores the Jobs in Data dataset, focusing on job roles and their characteristics. The project includes a unique challenge: introducing random missing values to the dataset to simulate real-world scenarios and demonstrate effective handling techniques.
+
+
+## Key Objectives:
+
+* Analyze job roles and their features.
+* Simulate random missing data and address its impact.
+* Create insightful visualizations for trends and patterns.
+
+## Methodology:
+
+*Data Preparation:
+Loaded the dataset and introduced random missing values (~3% of the data).
+Ensured the missing values were distributed across key columns for realistic complexity.
+
+*Missing Data Handling:
+Used techniques such as mean, median, and mode imputation to address missing values.
+Evaluated the impact of different imputation methods on the dataset.
+
+*Visualization:
+Generated visualizations using Seaborn and Matplotlib to analyze job role distributions and relationships between features.
+
+## Key Techniques and Tools:
+
+* Random missing data simulation and imputation techniques.
+* Data cleaning and preprocessing with pandas.
+* Visualizations using Seaborn and Matplotlib.

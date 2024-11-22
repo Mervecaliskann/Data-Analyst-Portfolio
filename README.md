@@ -290,7 +290,7 @@ This SQL project analyzes ad campaign performance on a monthly basis. Using wind
 * Data cleaning and preprocessing with pandas.
 * Visualizations using Seaborn and Matplotlib.
 
-# Project 15: Live Detection System using OpenCV and Deep Learning
+# Project 15: Live Detection System using OpenCV and Deep Learning (https://docs.google.com/presentation/d/1pMppOhrCp9uVrEFDUyic88j29DBkWcXS/edit?usp=sharing&ouid=100361181845443227367&rtpof=true&sd=true)
 This project develops a live detection system to verify whether a person in a video is alive or not. By utilizing OpenCV for face recognition and deep learning techniques, the system extracts pulse signals using face detection and Region of Interest (ROI) analysis. Additionally, Generative Adversarial Networks (GANs) are employed to detect fake faces in deepfake videos.
 
 ## Key Objectives:

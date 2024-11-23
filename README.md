@@ -12,7 +12,46 @@ This project showcases a comprehensive revenue measurement dashboard developed o
 * Data-Driven Visualizations: Adheres to best practices in visual design, ensuring charts and graphs are clear, relevant, and consistent, promoting optimal data communication.
 * Tableau Public Accessibility: Leveraging Tableau Public allows for easy sharing of the dashboard publicly, enabling wider access and collaboration.
 
-# Project 2: Jobs in Data Analysis (https://github.com/Mervecaliskann/Jobs-in-Data-Analysis)
+# Project 2 : E-Commerce Sales Analysis (https://github.com/Mervecaliskann/Global_AI_Hub_Veri_Analizi_Bootcamp_Customer-Segmentation)
+This Python project analyzes an e-commerce sales dataset to uncover insights into the platform’s sales performance. The primary objective is to clean the data, handle missing values, and create informative visualizations that help identify trends in sales, products, and customer behavior.
+
+## Key Objectives:
+
+* Explore and understand the structure of the e-commerce sales dataset.
+* Address missing data issues by using appropriate imputation techniques.
+* Perform feature engineering to create new variables that improve analysis.
+* Visualize key sales metrics such as top-selling products, customer spending, and sales trends across different countries.
+
+## Methodology:
+ 
+### 1. Data Preparation:
+
+The dataset contains multiple columns including invoice numbers, product descriptions, sales quantities, prices, and customer information. It was first loaded into a Pandas DataFrame. Missing values were identified in several columns such as CustomerID, InvoiceDate, and Description. Approximately 3% of the dataset contained missing values, and a realistic simulation was introduced by randomly removing data across key columns.
+
+### 2. Missing Data Handling: Various techniques were applied to address the missing values:
+
+* Deletion: Rows with excessive missing data were removed to ensure that the analysis was based on complete records.
+* Imputation: For smaller amounts of missing data, the missing values were imputed using the following methods:
+* Mean/Median Imputation: Numerical columns such as Quantity and UnitPrice were filled using the mean or median values based on the distribution of existing data.
+* Forward Fill: For time-related columns like InvoiceDate, forward filling (using the previous value) was applied to handle gaps in time series data.
+
+### 3. Feature Engineering: A new feature, Continent, was created by mapping each country to its respective continent. This provided a clearer way to analyze sales trends by region and allowed for more targeted analysis across different geographical areas.
+
+### 4. Visualization: Seaborn and Matplotlib were used to create meaningful visualizations:
+
+* Sales by Country: A bar chart showing total sales across different countries to identify which regions contribute most to revenue.
+* Top 10 Best-Selling Products: A bar chart displaying the top-selling products based on quantity sold, providing insights into the most popular items.
+* Daily Sales Trend: A time series plot to analyze how sales vary over time, identifying peak sales days and seasonal trends.
+* Customer Spending: A scatter plot and summary statistics were generated to identify high-value customers and their spending patterns.
+
+## Key Findings:
+
+* Customer Behavior: A significant proportion of transactions were made by customers from the United Kingdom, which led to the country being the highest contributor to total sales.
+* Top Products: A handful of low-cost and high-frequency products dominated sales figures.
+* Sales Patterns: There were noticeable spikes in sales on certain days, indicating possible promotional activities or seasonal effects.
+* Customer Spending: The analysis revealed a strong correlation between customer loyalty and high spending, with a few customers contributing the majority of revenue.
+
+# Project 3: Jobs in Data Analysis (https://github.com/Mervecaliskann/Jobs-in-Data-Analysis)
 
 This Python project explores the Jobs in Data dataset, focusing on job roles and their characteristics. The project includes a unique challenge: introducing random missing values to the dataset to simulate real-world scenarios and demonstrate effective handling techniques.
 
@@ -42,7 +81,7 @@ Generated visualizations using Seaborn and Matplotlib to analyze job role distri
 * Data cleaning and preprocessing with pandas.
 * Visualizations using Seaborn and Matplotlib.
 
-# Project 3: Cohort Analysis and Revenue Metrics for SaaS Company  ( https://public.tableau.com/app/profile/merve.al.kan/viz/GoIT-Homework2-Merve/ODEV4-Dashboard2?publish=yes )
+# Project 4: Cohort Analysis and Revenue Metrics for SaaS Company  ( https://public.tableau.com/app/profile/merve.al.kan/viz/GoIT-Homework2-Merve/ODEV4-Dashboard2?publish=yes )
 This project showcases a comprehensive revenue measurement dashboard developed on Tableau Public. It provides a clear and actionable overview of critical financial metrics, empowering stakeholders with data-driven insights.
 
 ## Enhanced Functionality:
@@ -58,7 +97,7 @@ Location and time filters were added to enable dynamic exploration of revenue da
 * Cohesive Dashboard Design: All worksheets have been integrated into a single, user-friendly dashboard for a comprehensive view of the company's financial performance.
 
 
-# Project 4:  Analyzing User Journeys in E-Commerce (BigQuery & Google Analytics 4)  ( https://console.cloud.google.com/bigquery?sq=585628036168:d6e02c9772a5487dbbdf898b8a14c381 ) & ( https://console.cloud.google.com/bigquery?sq=585628036168:27d0616e68a3497eae44533f3091cc77 )
+# Project 5:  Analyzing User Journeys in E-Commerce (BigQuery & Google Analytics 4)  ( https://console.cloud.google.com/bigquery?sq=585628036168:d6e02c9772a5487dbbdf898b8a14c381 ) & ( https://console.cloud.google.com/bigquery?sq=585628036168:27d0616e68a3497eae44533f3091cc77 )
 
 This project explores user behavior within a sample e-commerce dataset for January 2021, leveraging Google Analytics 4 and BigQuery. By focusing on key conversion points like sessions, add-to-cart actions, checkout initiations, and purchases, we calculated conversion rates and gained insights into user journeys.
 
@@ -77,7 +116,7 @@ This project provides valuable insights into:
 * Customer acquisition and retention: Understanding user behavior is crucial for customer acquisition and retention strategies.
 
 
-# Project 5: Calculating Potential Customer Yield with Rule-Based Classification (https://github.com/Mervecaliskann/Calculating-Potential-Customer-Yield-with-Rule-Based-Classification)
+# Project 6: Calculating Potential Customer Yield with Rule-Based Classification (https://github.com/Mervecaliskann/Calculating-Potential-Customer-Yield-with-Rule-Based-Classification)
 
 This project involved an in-depth analysis of sales data for Gezinomi, a travel industry company. The objective was to estimate potential customer revenue and inform marketing strategies.
 
@@ -102,7 +141,7 @@ This analysis empowers Gezinomi to:
 * Customer segmentation methods
 * Understanding of travel industry data
 
-# Project 6: Handwriting Recognition via Machine Learning ( https://drive.google.com/file/d/1tbmznzXYPx4pdAKBWfzi_o7TKE8yuozq/view )
+# Project 7: Handwriting Recognition via Machine Learning ( https://drive.google.com/file/d/1tbmznzXYPx4pdAKBWfzi_o7TKE8yuozq/view )
 
 This project delves into the development of robust algorithms for recognizing handwritten characters using Convolutional Neural Networks (CNNs). The primary objective was to create a model capable of accurately classifying handwritten digits and names.
 
@@ -125,7 +164,7 @@ This project delves into the development of robust algorithms for recognizing ha
 * MNIST Dataset: A benchmark dataset for handwritten digit recognition.
 * Custom Dataset: A dataset containing handwritten names and surnames for real-world evaluation.
   
-# Project 7: User Engagement Analysis ( https://docs.google.com/spreadsheets/d/1PnlgDO1HJR2I5KB8FG9Ynjht6k-C6VQm4zp2xVnh4hQ/edit?gid=0#gid=0 )
+# Project 8: User Engagement Analysis ( https://docs.google.com/spreadsheets/d/1PnlgDO1HJR2I5KB8FG9Ynjht6k-C6VQm4zp2xVnh4hQ/edit?gid=0#gid=0 )
 
 This project aims to analyze user engagement metrics for a specific product. It involves calculating key metrics such as Daily Active Users (DAU), Weekly Active Users (WAU), and user retention.
 
@@ -140,7 +179,7 @@ This project aims to analyze user engagement metrics for a specific product. It 
 
 *Google Sheets, COUNTUNIQUEIFS, SUMIF, COUNTIF, and other statistical functions.
 
-# Project 8: User Engagement Forecasting and Visualization ( https://docs.google.com/spreadsheets/d/1JbRYaAidpETIV5PhzAvBucw9JAoI5uguC9b12alpt_M/edit?gid=1323024643#gid=1323024643 )
+# Project 9: User Engagement Forecasting and Visualization ( https://docs.google.com/spreadsheets/d/1JbRYaAidpETIV5PhzAvBucw9JAoI5uguC9b12alpt_M/edit?gid=1323024643#gid=1323024643 )
 
 This project focuses on predicting and visualizing user engagement metrics. By leveraging linear regression and data visualization techniques, we aim to forecast future Daily Active Users (DAU) and Weekly Active Users (WAU) and gain insights into user behavior.
 
@@ -163,7 +202,7 @@ This project focuses on predicting and visualizing user engagement metrics. By l
 * Linear Regression
 * Data Visualization
 
-# Project 9: Cohort Analysis of User Retention (https://docs.google.com/spreadsheets/d/12uhgrJ0tY5LDsYD9GqRA_mC8_uTSSjstEsvqOx14VQY/edit?gid=1387101163#gid=1387101163)
+# Project 10: Cohort Analysis of User Retention (https://docs.google.com/spreadsheets/d/12uhgrJ0tY5LDsYD9GqRA_mC8_uTSSjstEsvqOx14VQY/edit?gid=1387101163#gid=1387101163)
 
 This project aims to perform a cohort analysis of user retention using Google Sheets pivot tables. By grouping users based on their first activity month and tracking their subsequent activities, we can identify trends in user behavior and retention rates.
 
@@ -180,7 +219,7 @@ This project aims to perform a cohort analysis of user retention using Google Sh
 * Pivot Tables
 * Conditional Formatting
 
-# Project 10:   Combining and Analyzing Ad Campaign Data with SQL (https://github.com/Mervecaliskann/Combining-and-Analyzing-Ad-Campaign-Data)
+# Project 11 : Combining and Analyzing Ad Campaign Data with SQL (https://github.com/Mervecaliskann/Combining-and-Analyzing-Ad-Campaign-Data)
 
 This SQL project aims to combine data from two ad campaign platforms (Facebook Ads and Google Ads) and perform a comprehensive analysis. Using Common Table Expressions (CTEs), we create a unified dataset and then aggregate metrics by date and media source.
 
@@ -200,7 +239,7 @@ This SQL project aims to combine data from two ad campaign platforms (Facebook A
 
 * SQL
 
-# Project 11: Combining-Facebook-and-Google-Ads-Data with SQL (https://github.com/Mervecaliskann/-Combining-Facebook-and-Google-Ads-Data)
+# Project 12: Combining-Facebook-and-Google-Ads-Data with SQL (https://github.com/Mervecaliskann/-Combining-Facebook-and-Google-Ads-Data)
 
 This SQL project demonstrates how to combine data from multiple ad platforms (Facebook and Google Ads) using CTEs and JOIN operations. By merging data from different tables, we can get a comprehensive view of our advertising campaigns.
 
@@ -220,7 +259,7 @@ This SQL project demonstrates how to combine data from multiple ad platforms (Fa
 
 *SQL
 
-# Project 12: Google Looker Studio Dashboard for Ad Campaign Analysis (https://lookerstudio.google.com/reporting/18debe28-ac13-4552-908e-4f39686b1ef6/page/uwo0D)
+# Project 13: Google Looker Studio Dashboard for Ad Campaign Analysis (https://lookerstudio.google.com/reporting/18debe28-ac13-4552-908e-4f39686b1ef6/page/uwo0D)
 
 This project demonstrates the creation of a data dashboard using Google Looker Studio to analyze ad campaign performance. By connecting to a PostgreSQL database and visualizing key metrics, we gain insights into campaign effectiveness and identify areas for improvement.
 
@@ -243,7 +282,7 @@ This project demonstrates the creation of a data dashboard using Google Looker S
 * Google Looker Studio
 * PostgreSQL
 
-# Project 13: Extracting-UTM-Parameters-and-Analyzing-Campaign-Performance (https://github.com/Mervecaliskann/Extracting-UTM-Parameters-and-Analyzing-Campaign-Performance)
+# Project 14: Extracting-UTM-Parameters-and-Analyzing-Campaign-Performance (https://github.com/Mervecaliskann/Extracting-UTM-Parameters-and-Analyzing-Campaign-Performance)
 
 This SQL project focuses on extracting UTM parameters from ad campaign data and performing detailed analysis. By using regular expressions and conditional statements, we can gain deeper insights into campaign performance based on specific UTM parameters.
 
@@ -264,7 +303,7 @@ This SQL project focuses on extracting UTM parameters from ad campaign data and 
 * SQL (PostgreSQL)
 * Regular Expressions
 
-# Project 14: Analyzing Monthly Ad Campaign Performance (https://github.com/Mervecaliskann/Analyzing-Monthly-Ad-Campaign-Performance)
+# Project 15: Analyzing Monthly Ad Campaign Performance (https://github.com/Mervecaliskann/Analyzing-Monthly-Ad-Campaign-Performance)
 
 This SQL project analyzes ad campaign performance on a monthly basis. Using window functions, we calculate the percentage change in key metrics from month to month for each campaign.
 
@@ -290,7 +329,7 @@ This SQL project analyzes ad campaign performance on a monthly basis. Using wind
 * Data cleaning and preprocessing with pandas.
 * Visualizations using Seaborn and Matplotlib.
 
-# Project 15: Live Detection System using OpenCV and Deep Learning (https://docs.google.com/presentation/d/1pMppOhrCp9uVrEFDUyic88j29DBkWcXS/edit?usp=sharing&ouid=100361181845443227367&rtpof=true&sd=true)
+# Project 16: Live Detection System using OpenCV and Deep Learning (https://docs.google.com/presentation/d/1pMppOhrCp9uVrEFDUyic88j29DBkWcXS/edit?usp=sharing&ouid=100361181845443227367&rtpof=true&sd=true)
 This project develops a live detection system to verify whether a person in a video is alive or not. By utilizing OpenCV for face recognition and deep learning techniques, the system extracts pulse signals using face detection and Region of Interest (ROI) analysis. Additionally, Generative Adversarial Networks (GANs) are employed to detect fake faces in deepfake videos.
 
 ## Key Objectives:

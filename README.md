@@ -53,6 +53,8 @@ A new feature, Continent, was created by mapping each country to its respective 
 * Sales Patterns: There were noticeable spikes in sales on certain days, indicating possible promotional activities or seasonal effects.
 * Customer Spending: The analysis revealed a strong correlation between customer loyalty and high spending, with a few customers contributing the majority of revenue.
 
+### Kaggle Link: https://www.kaggle.com/code/mervcaliskaan/globalaihubveri-analizi-bootcamp-customeranalysis
+
 # Project 3: Jobs in Data Analysis (https://github.com/Mervecaliskann/Jobs-in-Data-Analysis)
 
 This Python project explores the Jobs in Data dataset, focusing on job roles and their characteristics. The project includes a unique challenge: introducing random missing values to the dataset to simulate real-world scenarios and demonstrate effective handling techniques.

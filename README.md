@@ -35,7 +35,9 @@ The dataset contains multiple columns including invoice numbers, product descrip
 * Mean/Median Imputation: Numerical columns such as Quantity and UnitPrice were filled using the mean or median values based on the distribution of existing data.
 * Forward Fill: For time-related columns like InvoiceDate, forward filling (using the previous value) was applied to handle gaps in time series data.
 
-### 3. Feature Engineering: A new feature, Continent, was created by mapping each country to its respective continent. This provided a clearer way to analyze sales trends by region and allowed for more targeted analysis across different geographical areas.
+### 3. Feature Engineering: 
+
+A new feature, Continent, was created by mapping each country to its respective continent. This provided a clearer way to analyze sales trends by region and allowed for more targeted analysis across different geographical areas.
 
 ### 4. Visualization: Seaborn and Matplotlib were used to create meaningful visualizations:
 
